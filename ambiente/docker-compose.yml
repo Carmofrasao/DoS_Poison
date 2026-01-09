@@ -19,6 +19,10 @@ services:
     networks:
       rede_interna:
         ipv4_address: 172.20.0.2
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+      - SYS_NICE
     expose:
       - "80"
 

