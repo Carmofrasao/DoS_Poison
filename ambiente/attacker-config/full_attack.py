@@ -21,7 +21,7 @@ getStr = 'GET /beacon.php HTTP/1.1\r\n'
 http_request_packet = Ether() / IP(src=font_ip, dst=target_ip) / TCP(dport=target_port, flags="S") / getStr
 
 sendStr = 'POST /frasao HTTP/1.1\r\n'
-http_post_packet = Ether() / IP(src=font_ip, dst=target_ip) / TCP(dport=target_port) / sendStr
+http_post_packet = Ether() / IP(src=font_ip, dst=target_ip) / TCP(dport=target_port, flags=None) / sendStr
 
 for j in range(30):
     
