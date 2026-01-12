@@ -7,8 +7,5 @@ drop ip $HOME_NET any -> any any (msg:"Drop parcial"; flow:to_server; lua: scrip
 # Dropar todos os pacotes de IP com baixa reputação
 drop ip any any -> any any (msg:"Dropar todos os pacotes de IP com baixa reputação"; flow:to_server; iprep:src,BadHosts,>,107; sid:3;)
 
-# Reconhecendo pacotes HTTP de teste
-alert tcp any any -> any 80 (msg: "Possible HTTP GET request"; content: "GET"; content: "example.com"; sid:1000001; rev:1;)
-
 # Reconhecendo pacotes HTTP de ataque
 alert tcp any any -> any 80 (msg:"ET TROJAN Likely Fake AV C2 Beacon (malware.com)"; content:"GET /beacon.php"; classtype:trojan-activity; sid:2010051; rev:4;)

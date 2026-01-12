@@ -7,7 +7,7 @@ now = time.perf_counter()
 rtt = 0
 
 # Envia 40 fluxos de pacotes (cada fluxo com 7 pacotes) simulando a interação do cliente com o servidor web
-for j in range(40):
+for j in range(100):
   ss = []
   for i in range(7):
     ans = None
