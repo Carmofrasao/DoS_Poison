@@ -1,0 +1,112 @@
+Monitorando tráfego na interface eth0: 90 intervalos de 5 segundos
+
+Intervalo 1/90 - Tempo: 0.00s
+Nenhum pacote capturado ou erro na leitura.
+
+Intervalo 2/90 - Tempo: 32.79s
+Nenhum pacote capturado ou erro na leitura.
+
+Intervalo 3/90 - Tempo: 43.09s
+Pacotes capturados: 162
+
+Intervalo 4/90 - Tempo: 56.45s
+Nenhum pacote capturado ou erro na leitura.
+
+Intervalo 5/90 - Tempo: 65.72s
+Nenhum pacote capturado ou erro na leitura.
+
+Intervalo 6/90 - Tempo: 76.03s
+Pacotes capturados: 176
+
+Intervalo 7/90 - Tempo: 89.38s
+Nenhum pacote capturado ou erro na leitura.
+
+Intervalo 8/90 - Tempo: 99.67s
+Nenhum pacote capturado ou erro na leitura.
+
+Intervalo 9/90 - Tempo: 108.94s
+Pacotes capturados: 193
+
+Intervalo 10/90 - Tempo: 122.27s
+Nenhum pacote capturado ou erro na leitura.
+
+Intervalo 11/90 - Tempo: 132.57s
+Nenhum pacote capturado ou erro na leitura.
+
+Intervalo 12/90 - Tempo: 142.87s
+Pacotes capturados: 137
+
+Intervalo 13/90 - Tempo: 155.22s
+Nenhum pacote capturado ou erro na leitura.
+
+Intervalo 14/90 - Tempo: 165.53s
+Nenhum pacote capturado ou erro na leitura.
+
+Intervalo 15/90 - Tempo: 175.83s
+Pacotes capturados: 173
+
+Intervalo 16/90 - Tempo: 189.19s
+Nenhum pacote capturado ou erro na leitura.
+
+Intervalo 17/90 - Tempo: 199.47s
+Nenhum pacote capturado ou erro na leitura.
+
+Intervalo 18/90 - Tempo: 208.76s
+Pacotes capturados: 186
+
+Intervalo 19/90 - Tempo: 222.14s
+Nenhum pacote capturado ou erro na leitura.
+
+Intervalo 20/90 - Tempo: 232.43s
+Nenhum pacote capturado ou erro na leitura.
+
+Intervalo 21/90 - Tempo: 242.74s
+Pacotes capturados: 148
+
+Intervalo 22/90 - Tempo: 255.09s
+Nenhum pacote capturado ou erro na leitura.
+
+Intervalo 23/90 - Tempo: 265.38s
+Nenhum pacote capturado ou erro na leitura.
+
+Intervalo 24/90 - Tempo: 275.68s
+Pacotes capturados: 161
+
+Intervalo 25/90 - Tempo: 289.03s
+Nenhum pacote capturado ou erro na leitura.
+
+Intervalo 26/90 - Tempo: 298.31s
+Nenhum pacote capturado ou erro na leitura.
+
+Intervalo 27/90 - Tempo: 308.58s
+Pacotes capturados: 182
+
+Intervalo 28/90 - Tempo: 321.93s
+Nenhum pacote capturado ou erro na leitura.
+
+Intervalo 29/90 - Tempo: 332.25s
+Nenhum pacote capturado ou erro na leitura.
+
+Intervalo 30/90 - Tempo: 341.52s
+Pacotes capturados: 195
+
+Intervalo 31/90 - Tempo: 354.88s
+Nenhum pacote capturado ou erro na leitura.
+
+Intervalo 32/90 - Tempo: 365.17s
+Nenhum pacote capturado ou erro na leitura.
+
+Intervalo 33/90 - Tempo: 375.49s
+Pacotes capturados: 155
+
+Intervalo 34/90 - Tempo: 387.84s
+Nenhum pacote capturado ou erro na leitura.
+
+Intervalo 35/90 - Tempo: 398.11s
+Nenhum pacote capturado ou erro na leitura.
+
+Intervalo 36/90 - Tempo: 408.40s
+^C
+Monitoramento interrompido pelo usuário.
+
+Monitoramento finalizado.

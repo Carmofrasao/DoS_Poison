@@ -32,7 +32,7 @@ def count_packets(interface="eth0", interval=10, total_duration=300):
             "-G", str(interval),    # Duração do intervalo
             "-W", "1",              # Apenas uma execução
             # Atenas pacotes SYN que venham do atacante e vão para o suricata
-            "tcp[13] == 2 and ip and dst 172.20.1.2 and ether src 7a:f4:40:cd:6c:51"
+            "tcp and ip and dst 172.20.1.2 and ether src 7a:f4:40:cd:6c:51"
         ]
 
         print(f"\nIntervalo {i+1}/{num_intervals} - Tempo: {start_time}")
@@ -76,4 +76,4 @@ if __name__ == "__main__":
     else:
         selected_interface = "eth0"  # Padrão
 
-    count_packets(interface=selected_interface, interval=10, total_duration=450)
+    count_packets(interface=selected_interface, interval=5, total_duration=450)
