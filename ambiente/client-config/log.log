@@ -1,225 +1,477 @@
-Monitorando tráfego na interface eth0: 90 intervalos de 5 segundos
+Monitorando tráfego na interface eth0: 450 intervalos de 1 segundos
 
-Intervalo 1/90 - Tempo: 0.00s
-Pacotes capturados: 28
+Intervalo 1/450 - Tempo: 0.00s
+Pacotes capturados: 5
 
-Intervalo 2/90 - Tempo: 8.26s
-Nenhum pacote capturado ou erro na leitura.
-
-Intervalo 3/90 - Tempo: 13.45s
-Nenhum pacote capturado ou erro na leitura.
-
-Intervalo 4/90 - Tempo: 18.63s
-Pacotes capturados: 22
-
-Intervalo 5/90 - Tempo: 24.83s
-Nenhum pacote capturado ou erro na leitura.
-
-Intervalo 6/90 - Tempo: 30.01s
-Pacotes capturados: 14
-
-Intervalo 7/90 - Tempo: 35.15s
-Pacotes capturados: 10
-
-Intervalo 8/90 - Tempo: 42.38s
-Pacotes capturados: 117
-
-Intervalo 9/90 - Tempo: 48.57s
-Nenhum pacote capturado ou erro na leitura.
-
-Intervalo 10/90 - Tempo: 53.73s
-Nenhum pacote capturado ou erro na leitura.
-
-Intervalo 11/90 - Tempo: 58.91s
-Pacotes capturados: 17
-
-Intervalo 12/90 - Tempo: 66.11s
-Nenhum pacote capturado ou erro na leitura.
-
-Intervalo 13/90 - Tempo: 71.25s
-Pacotes capturados: 23
-
-Intervalo 14/90 - Tempo: 76.43s
-Pacotes capturados: 90
-
-Intervalo 15/90 - Tempo: 81.61s
-Pacotes capturados: 13
-
-Intervalo 16/90 - Tempo: 85.75s
-Nenhum pacote capturado ou erro na leitura.
-
-Intervalo 17/90 - Tempo: 90.89s
+Intervalo 2/450 - Tempo: 2.09s
 Pacotes capturados: 7
 
-Intervalo 18/90 - Tempo: 97.06s
-Pacotes capturados: 6
+Intervalo 3/450 - Tempo: 12.40s
+Pacotes capturados: 7
 
-Intervalo 19/90 - Tempo: 104.27s
-Pacotes capturados: 13
+Intervalo 4/450 - Tempo: 21.67s
+Pacotes capturados: 7
 
-Intervalo 20/90 - Tempo: 109.43s
-Pacotes capturados: 96
+Intervalo 5/450 - Tempo: 31.97s
+Pacotes capturados: 1
 
-Intervalo 21/90 - Tempo: 114.58s
-Pacotes capturados: 6
+Intervalo 6/450 - Tempo: 33.05s
+Pacotes capturados: 7
 
-Intervalo 22/90 - Tempo: 118.72s
-Pacotes capturados: 11
+Intervalo 7/450 - Tempo: 42.30s
+Pacotes capturados: 48
 
-Intervalo 23/90 - Tempo: 124.93s
-Pacotes capturados: 10
+Intervalo 8/450 - Tempo: 43.38s
+Pacotes capturados: 44
 
-Intervalo 24/90 - Tempo: 130.10s
-Pacotes capturados: 6
+Intervalo 9/450 - Tempo: 44.43s
+Pacotes capturados: 1
 
-Intervalo 25/90 - Tempo: 136.30s
-Pacotes capturados: 12
+Intervalo 10/450 - Tempo: 45.50s
+Pacotes capturados: 7
 
-Intervalo 26/90 - Tempo: 141.45s
-Pacotes capturados: 102
-
-Intervalo 27/90 - Tempo: 146.62s
-Pacotes capturados: 13
-
-Intervalo 28/90 - Tempo: 150.78s
+Intervalo 11/450 - Tempo: 51.66s
 Pacotes capturados: 8
 
-Intervalo 29/90 - Tempo: 155.92s
-Pacotes capturados: 11
+Intervalo 12/450 - Tempo: 61.94s
+Pacotes capturados: 1
 
-Intervalo 30/90 - Tempo: 161.07s
-Nenhum pacote capturado ou erro na leitura.
+Intervalo 13/450 - Tempo: 66.07s
+Pacotes capturados: 10
 
-Intervalo 31/90 - Tempo: 166.23s
-Pacotes capturados: 14
+Intervalo 14/450 - Tempo: 72.23s
+Pacotes capturados: 37
 
-Intervalo 32/90 - Tempo: 172.42s
-Pacotes capturados: 70
-
-Intervalo 33/90 - Tempo: 177.61s
-Pacotes capturados: 45
-
-Intervalo 34/90 - Tempo: 181.77s
-Pacotes capturados: 11
-
-Intervalo 35/90 - Tempo: 187.95s
-Pacotes capturados: 4
-
-Intervalo 36/90 - Tempo: 194.14s
-Pacotes capturados: 3
-
-Intervalo 37/90 - Tempo: 199.29s
-Pacotes capturados: 12
-
-Intervalo 38/90 - Tempo: 205.47s
+Intervalo 15/450 - Tempo: 76.40s
 Pacotes capturados: 50
 
-Intervalo 39/90 - Tempo: 210.64s
-Pacotes capturados: 54
-
-Intervalo 40/90 - Tempo: 214.78s
-Pacotes capturados: 13
-
-Intervalo 41/90 - Tempo: 219.96s
-Pacotes capturados: 4
-
-Intervalo 42/90 - Tempo: 225.12s
-Pacotes capturados: 13
-
-Intervalo 43/90 - Tempo: 230.31s
-Pacotes capturados: 3
-
-Intervalo 44/90 - Tempo: 236.51s
-Pacotes capturados: 14
-
-Intervalo 45/90 - Tempo: 242.72s
-Pacotes capturados: 62
-
-Intervalo 46/90 - Tempo: 247.90s
-Pacotes capturados: 16
-
-Intervalo 47/90 - Tempo: 253.04s
-Pacotes capturados: 4
-
-Intervalo 48/90 - Tempo: 258.19s
-Pacotes capturados: 16
-
-Intervalo 49/90 - Tempo: 264.37s
-Pacotes capturados: 8
-
-Intervalo 50/90 - Tempo: 269.53s
-Pacotes capturados: 3
-
-Intervalo 51/90 - Tempo: 274.70s
-Pacotes capturados: 54
-
-Intervalo 52/90 - Tempo: 279.86s
-Pacotes capturados: 20
-
-Intervalo 53/90 - Tempo: 285.02s
-Pacotes capturados: 7
-
-Intervalo 54/90 - Tempo: 291.22s
+Intervalo 16/450 - Tempo: 77.49s
 Pacotes capturados: 9
 
-Intervalo 55/90 - Tempo: 297.41s
-Pacotes capturados: 3
+Intervalo 17/450 - Tempo: 78.58s
+Pacotes capturados: 1
 
-Intervalo 56/90 - Tempo: 303.63s
-Pacotes capturados: 6
+Intervalo 18/450 - Tempo: 80.66s
+Pacotes capturados: 1
 
-Intervalo 57/90 - Tempo: 308.81s
+Intervalo 19/450 - Tempo: 82.74s
+Pacotes capturados: 7
+
+Intervalo 20/450 - Tempo: 93.02s
+Pacotes capturados: 1
+
+Intervalo 21/450 - Tempo: 94.10s
+Pacotes capturados: 1
+
+Intervalo 22/450 - Tempo: 99.25s
+Pacotes capturados: 8
+
+Intervalo 23/450 - Tempo: 103.40s
+Pacotes capturados: 30
+
+Intervalo 24/450 - Tempo: 109.60s
+Pacotes capturados: 45
+
+Intervalo 25/450 - Tempo: 110.71s
 Pacotes capturados: 10
 
-Intervalo 58/90 - Tempo: 315.02s
+Intervalo 26/450 - Tempo: 111.80s
+Pacotes capturados: 4
+
+Intervalo 27/450 - Tempo: 112.90s
 Pacotes capturados: 7
 
-Intervalo 59/90 - Tempo: 321.22s
-Pacotes capturados: 5
+Intervalo 28/450 - Tempo: 113.97s
+Pacotes capturados: 1
 
-Intervalo 60/90 - Tempo: 327.42s
-Pacotes capturados: 5
-
-Intervalo 61/90 - Tempo: 333.63s
-Pacotes capturados: 2
-
-Intervalo 62/90 - Tempo: 337.78s
-Pacotes capturados: 5
-
-Intervalo 63/90 - Tempo: 342.94s
-Pacotes capturados: 29
-
-Intervalo 64/90 - Tempo: 348.08s
-Pacotes capturados: 15
-
-Intervalo 65/90 - Tempo: 354.26s
+Intervalo 29/450 - Tempo: 123.22s
 Pacotes capturados: 8
 
-Intervalo 66/90 - Tempo: 359.46s
-Pacotes capturados: 5
+Intervalo 30/450 - Tempo: 124.28s
+Pacotes capturados: 1
 
-Intervalo 67/90 - Tempo: 365.68s
+Intervalo 31/450 - Tempo: 132.50s
+Pacotes capturados: 9
+
+Intervalo 32/450 - Tempo: 134.57s
+Pacotes capturados: 25
+
+Intervalo 33/450 - Tempo: 142.83s
+Pacotes capturados: 47
+
+Intervalo 34/450 - Tempo: 143.91s
+Pacotes capturados: 19
+
+Intervalo 35/450 - Tempo: 144.99s
 Pacotes capturados: 3
 
-Intervalo 68/90 - Tempo: 371.87s
-Pacotes capturados: 7
+Intervalo 36/450 - Tempo: 146.07s
+Pacotes capturados: 11
 
-Intervalo 69/90 - Tempo: 377.01s
+Intervalo 37/450 - Tempo: 147.16s
+Pacotes capturados: 1
+
+Intervalo 38/450 - Tempo: 151.28s
+Pacotes capturados: 3
+
+Intervalo 39/450 - Tempo: 156.45s
+Pacotes capturados: 1
+
+Intervalo 40/450 - Tempo: 165.72s
+Pacotes capturados: 8
+
+Intervalo 41/450 - Tempo: 166.77s
+Pacotes capturados: 25
+
+Intervalo 42/450 - Tempo: 176.04s
+Pacotes capturados: 47
+
+Intervalo 43/450 - Tempo: 177.14s
 Pacotes capturados: 16
 
-Intervalo 70/90 - Tempo: 383.19s
-Pacotes capturados: 9
+Intervalo 44/450 - Tempo: 178.21s
+Pacotes capturados: 5
 
-Intervalo 71/90 - Tempo: 389.36s
-Pacotes capturados: 9
+Intervalo 45/450 - Tempo: 179.29s
+Pacotes capturados: 4
 
-Intervalo 72/90 - Tempo: 395.56s
+Intervalo 46/450 - Tempo: 180.35s
 Pacotes capturados: 2
 
-Intervalo 73/90 - Tempo: 399.70s
+Intervalo 47/450 - Tempo: 183.44s
 Pacotes capturados: 3
 
-Intervalo 74/90 - Tempo: 405.89s
+Intervalo 48/450 - Tempo: 184.50s
+Pacotes capturados: 1
+
+Intervalo 49/450 - Tempo: 186.59s
+Pacotes capturados: 3
+
+Intervalo 50/450 - Tempo: 187.69s
+Pacotes capturados: 7
+
+Intervalo 51/450 - Tempo: 188.76s
+Pacotes capturados: 1
+
+Intervalo 52/450 - Tempo: 189.84s
+Pacotes capturados: 1
+
+Intervalo 53/450 - Tempo: 191.94s
+Pacotes capturados: 1
+
+Intervalo 54/450 - Tempo: 193.04s
+Pacotes capturados: 1
+
+Intervalo 55/450 - Tempo: 199.22s
+Pacotes capturados: 1
+
+Intervalo 56/450 - Tempo: 200.28s
+Pacotes capturados: 1
+
+Intervalo 57/450 - Tempo: 201.37s
+Pacotes capturados: 10
+
+Intervalo 58/450 - Tempo: 203.46s
+Pacotes capturados: 1
+
+Intervalo 59/450 - Tempo: 205.57s
+Pacotes capturados: 4
+
+Intervalo 60/450 - Tempo: 208.70s
+Pacotes capturados: 34
+
+Intervalo 61/450 - Tempo: 209.77s
+Pacotes capturados: 33
+
+Intervalo 62/450 - Tempo: 210.86s
+Pacotes capturados: 12
+
+Intervalo 63/450 - Tempo: 211.93s
+Pacotes capturados: 9
+
+Intervalo 64/450 - Tempo: 213.02s
+Pacotes capturados: 11
+
+Intervalo 65/450 - Tempo: 214.12s
+Pacotes capturados: 1
+
+Intervalo 66/450 - Tempo: 215.21s
+Pacotes capturados: 1
+
+Intervalo 67/450 - Tempo: 216.26s
+Pacotes capturados: 7
+
+Intervalo 68/450 - Tempo: 217.32s
+Pacotes capturados: 3
+
+Intervalo 69/450 - Tempo: 218.39s
+Pacotes capturados: 1
+
+Intervalo 70/450 - Tempo: 220.47s
+Pacotes capturados: 1
+
+Intervalo 71/450 - Tempo: 224.63s
+Pacotes capturados: 5
+
+Intervalo 72/450 - Tempo: 225.71s
+Pacotes capturados: 6
+
+Intervalo 73/450 - Tempo: 226.76s
+Pacotes capturados: 2
+
+Intervalo 74/450 - Tempo: 227.83s
+Pacotes capturados: 1
+
+Intervalo 75/450 - Tempo: 237.09s
+Pacotes capturados: 1
+
+Intervalo 76/450 - Tempo: 238.18s
+Pacotes capturados: 1
+
+Intervalo 77/450 - Tempo: 239.24s
+Pacotes capturados: 8
+
+Intervalo 78/450 - Tempo: 240.33s
+Pacotes capturados: 1
+
+Intervalo 79/450 - Tempo: 241.40s
+Pacotes capturados: 10
+
+Intervalo 80/450 - Tempo: 242.46s
+Pacotes capturados: 29
+
+Intervalo 81/450 - Tempo: 243.57s
+Pacotes capturados: 17
+
+Intervalo 82/450 - Tempo: 244.62s
+Pacotes capturados: 4
+
+Intervalo 83/450 - Tempo: 245.72s
+Pacotes capturados: 12
+
+Intervalo 84/450 - Tempo: 246.78s
+Pacotes capturados: 4
+
+Intervalo 85/450 - Tempo: 249.88s
+Pacotes capturados: 16
+
+Intervalo 86/450 - Tempo: 250.99s
+Pacotes capturados: 1
+
+Intervalo 87/450 - Tempo: 253.07s
+Pacotes capturados: 1
+
+Intervalo 88/450 - Tempo: 254.14s
+Pacotes capturados: 2
+
+Intervalo 89/450 - Tempo: 257.24s
+Pacotes capturados: 3
+
+Intervalo 90/450 - Tempo: 258.33s
+Pacotes capturados: 7
+
+Intervalo 91/450 - Tempo: 259.42s
+Pacotes capturados: 1
+
+Intervalo 92/450 - Tempo: 261.51s
+Pacotes capturados: 1
+
+Intervalo 93/450 - Tempo: 262.61s
+Pacotes capturados: 1
+
+Intervalo 94/450 - Tempo: 263.68s
+Pacotes capturados: 1
+
+Intervalo 95/450 - Tempo: 264.74s
+Pacotes capturados: 2
+
+Intervalo 96/450 - Tempo: 265.80s
+Pacotes capturados: 4
+
+Intervalo 97/450 - Tempo: 266.87s
+Pacotes capturados: 1
+
+Intervalo 98/450 - Tempo: 268.94s
+Pacotes capturados: 1
+
+Intervalo 99/450 - Tempo: 273.08s
+Pacotes capturados: 8
+
+Intervalo 100/450 - Tempo: 275.17s
+Pacotes capturados: 21
+
+Intervalo 101/450 - Tempo: 276.24s
+Pacotes capturados: 19
+
+Intervalo 102/450 - Tempo: 277.31s
+Pacotes capturados: 13
+
+Intervalo 103/450 - Tempo: 278.41s
+Pacotes capturados: 7
+
+Intervalo 104/450 - Tempo: 279.47s
+Pacotes capturados: 9
+
+Intervalo 105/450 - Tempo: 280.52s
+Pacotes capturados: 8
+
+Intervalo 106/450 - Tempo: 281.60s
+Pacotes capturados: 8
+
+Intervalo 107/450 - Tempo: 282.68s
+Pacotes capturados: 7
+
+Intervalo 108/450 - Tempo: 283.74s
+Pacotes capturados: 2
+
+Intervalo 109/450 - Tempo: 284.82s
+Pacotes capturados: 2
+
+Intervalo 110/450 - Tempo: 287.92s
+Pacotes capturados: 5
+
+Intervalo 111/450 - Tempo: 291.05s
+Pacotes capturados: 8
+
+Intervalo 112/450 - Tempo: 292.14s
+Pacotes capturados: 1
+
+Intervalo 113/450 - Tempo: 293.21s
+Pacotes capturados: 1
+
+Intervalo 114/450 - Tempo: 294.26s
+Pacotes capturados: 5
+
+Intervalo 115/450 - Tempo: 295.31s
+Pacotes capturados: 7
+
+Intervalo 116/450 - Tempo: 296.38s
+Pacotes capturados: 2
+
+Intervalo 117/450 - Tempo: 297.48s
+Pacotes capturados: 1
+
+Intervalo 118/450 - Tempo: 300.60s
+Pacotes capturados: 2
+
+Intervalo 119/450 - Tempo: 305.78s
+Pacotes capturados: 1
+
+Intervalo 120/450 - Tempo: 306.85s
+Pacotes capturados: 1
+
+Intervalo 121/450 - Tempo: 307.91s
+Pacotes capturados: 12
+
+Intervalo 122/450 - Tempo: 309.01s
+Pacotes capturados: 16
+
+Intervalo 123/450 - Tempo: 310.08s
+Pacotes capturados: 6
+
+Intervalo 124/450 - Tempo: 311.17s
+Pacotes capturados: 7
+
+Intervalo 125/450 - Tempo: 312.25s
+Pacotes capturados: 5
+
+Intervalo 126/450 - Tempo: 313.31s
+Pacotes capturados: 1
+
+Intervalo 127/450 - Tempo: 314.42s
+Pacotes capturados: 4
+
+Intervalo 128/450 - Tempo: 316.52s
+Pacotes capturados: 4
+
+Intervalo 129/450 - Tempo: 317.59s
+Pacotes capturados: 1
+
+Intervalo 130/450 - Tempo: 318.66s
+Pacotes capturados: 2
+
+Intervalo 131/450 - Tempo: 319.74s
+Pacotes capturados: 1
+
+Intervalo 132/450 - Tempo: 320.81s
+Pacotes capturados: 1
+
+Intervalo 133/450 - Tempo: 321.90s
+Pacotes capturados: 1
+
+Intervalo 134/450 - Tempo: 323.00s
+Pacotes capturados: 4
+
+Intervalo 135/450 - Tempo: 324.06s
+Pacotes capturados: 2
+
+Intervalo 136/450 - Tempo: 325.12s
+Pacotes capturados: 4
+
+Intervalo 137/450 - Tempo: 326.19s
+Pacotes capturados: 1
+
+Intervalo 138/450 - Tempo: 330.34s
+Pacotes capturados: 1
+
+Intervalo 139/450 - Tempo: 331.43s
+Pacotes capturados: 1
+
+Intervalo 140/450 - Tempo: 332.52s
+Pacotes capturados: 1
+
+Intervalo 141/450 - Tempo: 334.62s
+Pacotes capturados: 2
+
+Intervalo 142/450 - Tempo: 338.77s
+Pacotes capturados: 3
+
+Intervalo 143/450 - Tempo: 341.88s
+Pacotes capturados: 4
+
+Intervalo 144/450 - Tempo: 342.94s
+Pacotes capturados: 2
+
+Intervalo 145/450 - Tempo: 343.99s
+Pacotes capturados: 5
+
+Intervalo 146/450 - Tempo: 345.04s
+Pacotes capturados: 1
+
+Intervalo 147/450 - Tempo: 346.10s
+Pacotes capturados: 2
+
+Intervalo 148/450 - Tempo: 347.18s
+Pacotes capturados: 4
+
+Intervalo 149/450 - Tempo: 349.26s
+Pacotes capturados: 2
+
+Intervalo 150/450 - Tempo: 350.34s
+Pacotes capturados: 1
+
+Intervalo 151/450 - Tempo: 355.49s
+Pacotes capturados: 4
+
+Intervalo 152/450 - Tempo: 357.60s
+Pacotes capturados: 1
+
+Intervalo 153/450 - Tempo: 358.68s
+Pacotes capturados: 3
+
+Intervalo 154/450 - Tempo: 380.25s
+Pacotes capturados: 1
+
+Intervalo 155/450 - Tempo: 381.31s
+Pacotes capturados: 1
+
+Intervalo 156/450 - Tempo: 383.36s
+Pacotes capturados: 1
+
+Intervalo 157/450 - Tempo: 386.48s
+Pacotes capturados: 1
+
+Intervalo 158/450 - Tempo: 393.69s
 ^C
 Monitoramento interrompido pelo usuário.
 

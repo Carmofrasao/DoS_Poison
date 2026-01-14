@@ -32,7 +32,7 @@ def count_packets(interface="eth0", interval=10, total_duration=300):
             "-G", str(interval),    # Duração do intervalo
             "-W", "1",              # Apenas uma execução
             # Atenas pacotes SYN que venham do cliente e vão para o suricata
-            "tcp and ip and dst 172.20.1.2 and ether src a2:6a:6f:db:6d:9c"
+            "tcp and ip and dst 172.20.1.2 and ether src 52:3d:d1:61:ca:f3"
         ]
 
         print(f"\nIntervalo {i+1}/{num_intervals} - Tempo: {start_time}")
@@ -41,7 +41,7 @@ def count_packets(interface="eth0", interval=10, total_duration=300):
             process = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
             _, stderr = process.communicate()
 
-            if "packets captured" in stderr.decode():
+            if "packet" in stderr.decode():
                 packets_line = stderr.decode().split("\n")[-3]
                 packets = packets_line.split(" ")[0]
                 print(f"Pacotes capturados: {packets}")
@@ -76,4 +76,4 @@ if __name__ == "__main__":
     else:
         selected_interface = "eth0"  # Padrão
 
-    count_packets(interface=selected_interface, interval=5, total_duration=450)
+    count_packets(interface=selected_interface, interval=1, total_duration=450)

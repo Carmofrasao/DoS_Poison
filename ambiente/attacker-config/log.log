@@ -1,111 +1,159 @@
-Monitorando tráfego na interface eth0: 90 intervalos de 5 segundos
+Monitorando tráfego na interface eth0: 450 intervalos de 1 segundos
 
-Intervalo 1/90 - Tempo: 0.00s
-Nenhum pacote capturado ou erro na leitura.
+Intervalo 1/450 - Tempo: 0.00s
+Pacotes capturados: 1
 
-Intervalo 2/90 - Tempo: 32.79s
-Nenhum pacote capturado ou erro na leitura.
+Intervalo 2/450 - Tempo: 32.80s
+Pacotes capturados: 2
 
-Intervalo 3/90 - Tempo: 43.09s
-Pacotes capturados: 162
+Intervalo 3/450 - Tempo: 42.07s
+Pacotes capturados: 49
 
-Intervalo 4/90 - Tempo: 56.45s
-Nenhum pacote capturado ou erro na leitura.
+Intervalo 4/450 - Tempo: 43.15s
+Pacotes capturados: 39
 
-Intervalo 5/90 - Tempo: 65.72s
-Nenhum pacote capturado ou erro na leitura.
+Intervalo 5/450 - Tempo: 44.25s
+Pacotes capturados: 100
 
-Intervalo 6/90 - Tempo: 76.03s
-Pacotes capturados: 176
+Intervalo 6/450 - Tempo: 55.56s
+Pacotes capturados: 1
 
-Intervalo 7/90 - Tempo: 89.38s
-Nenhum pacote capturado ou erro na leitura.
+Intervalo 7/450 - Tempo: 65.84s
+Pacotes capturados: 45
 
-Intervalo 8/90 - Tempo: 99.67s
-Nenhum pacote capturado ou erro na leitura.
+Intervalo 8/450 - Tempo: 76.14s
+Pacotes capturados: 49
 
-Intervalo 9/90 - Tempo: 108.94s
-Pacotes capturados: 193
+Intervalo 9/450 - Tempo: 77.21s
+Pacotes capturados: 100
 
-Intervalo 10/90 - Tempo: 122.27s
-Nenhum pacote capturado ou erro na leitura.
+Intervalo 10/450 - Tempo: 88.53s
+Pacotes capturados: 1
 
-Intervalo 11/90 - Tempo: 132.57s
-Nenhum pacote capturado ou erro na leitura.
+Intervalo 11/450 - Tempo: 98.80s
+Pacotes capturados: 30
 
-Intervalo 12/90 - Tempo: 142.87s
-Pacotes capturados: 137
+Intervalo 12/450 - Tempo: 109.11s
+Pacotes capturados: 49
 
-Intervalo 13/90 - Tempo: 155.22s
-Nenhum pacote capturado ou erro na leitura.
+Intervalo 13/450 - Tempo: 110.21s
+Pacotes capturados: 11
 
-Intervalo 14/90 - Tempo: 165.53s
-Nenhum pacote capturado ou erro na leitura.
+Intervalo 14/450 - Tempo: 111.27s
+Pacotes capturados: 100
 
-Intervalo 15/90 - Tempo: 175.83s
-Pacotes capturados: 173
+Intervalo 15/450 - Tempo: 122.58s
+Pacotes capturados: 1
 
-Intervalo 16/90 - Tempo: 189.19s
-Nenhum pacote capturado ou erro na leitura.
+Intervalo 16/450 - Tempo: 131.85s
+Pacotes capturados: 20
 
-Intervalo 17/90 - Tempo: 199.47s
-Nenhum pacote capturado ou erro na leitura.
+Intervalo 17/450 - Tempo: 142.13s
+Pacotes capturados: 50
 
-Intervalo 18/90 - Tempo: 208.76s
-Pacotes capturados: 186
+Intervalo 18/450 - Tempo: 143.23s
+Pacotes capturados: 20
 
-Intervalo 19/90 - Tempo: 222.14s
-Nenhum pacote capturado ou erro na leitura.
+Intervalo 19/450 - Tempo: 144.30s
+Pacotes capturados: 100
 
-Intervalo 20/90 - Tempo: 232.43s
-Nenhum pacote capturado ou erro na leitura.
+Intervalo 20/450 - Tempo: 155.58s
+Pacotes capturados: 1
 
-Intervalo 21/90 - Tempo: 242.74s
-Pacotes capturados: 148
+Intervalo 21/450 - Tempo: 165.88s
+Pacotes capturados: 10
 
-Intervalo 22/90 - Tempo: 255.09s
-Nenhum pacote capturado ou erro na leitura.
+Intervalo 22/450 - Tempo: 175.16s
+Pacotes capturados: 50
 
-Intervalo 23/90 - Tempo: 265.38s
-Nenhum pacote capturado ou erro na leitura.
+Intervalo 23/450 - Tempo: 176.25s
+Pacotes capturados: 31
 
-Intervalo 24/90 - Tempo: 275.68s
-Pacotes capturados: 161
+Intervalo 24/450 - Tempo: 177.31s
+Pacotes capturados: 100
 
-Intervalo 25/90 - Tempo: 289.03s
-Nenhum pacote capturado ou erro na leitura.
+Intervalo 25/450 - Tempo: 188.61s
+Pacotes capturados: 1
 
-Intervalo 26/90 - Tempo: 298.31s
-Nenhum pacote capturado ou erro na leitura.
+Intervalo 26/450 - Tempo: 198.90s
+Pacotes capturados: 1
 
-Intervalo 27/90 - Tempo: 308.58s
-Pacotes capturados: 182
+Intervalo 27/450 - Tempo: 208.17s
+Pacotes capturados: 49
 
-Intervalo 28/90 - Tempo: 321.93s
-Nenhum pacote capturado ou erro na leitura.
+Intervalo 28/450 - Tempo: 209.25s
+Pacotes capturados: 41
 
-Intervalo 29/90 - Tempo: 332.25s
-Nenhum pacote capturado ou erro na leitura.
+Intervalo 29/450 - Tempo: 210.33s
+Pacotes capturados: 100
 
-Intervalo 30/90 - Tempo: 341.52s
-Pacotes capturados: 195
+Intervalo 30/450 - Tempo: 221.66s
+Pacotes capturados: 1
 
-Intervalo 31/90 - Tempo: 354.88s
-Nenhum pacote capturado ou erro na leitura.
+Intervalo 31/450 - Tempo: 231.95s
+Pacotes capturados: 44
 
-Intervalo 32/90 - Tempo: 365.17s
-Nenhum pacote capturado ou erro na leitura.
+Intervalo 32/450 - Tempo: 242.24s
+Pacotes capturados: 49
 
-Intervalo 33/90 - Tempo: 375.49s
-Pacotes capturados: 155
+Intervalo 33/450 - Tempo: 243.33s
+Pacotes capturados: 100
 
-Intervalo 34/90 - Tempo: 387.84s
-Nenhum pacote capturado ou erro na leitura.
+Intervalo 34/450 - Tempo: 254.65s
+Pacotes capturados: 1
 
-Intervalo 35/90 - Tempo: 398.11s
-Nenhum pacote capturado ou erro na leitura.
+Intervalo 35/450 - Tempo: 264.94s
+Pacotes capturados: 31
 
-Intervalo 36/90 - Tempo: 408.40s
+Intervalo 36/450 - Tempo: 275.20s
+Pacotes capturados: 49
+
+Intervalo 37/450 - Tempo: 276.29s
+Pacotes capturados: 10
+
+Intervalo 38/450 - Tempo: 277.35s
+Pacotes capturados: 100
+
+Intervalo 39/450 - Tempo: 288.65s
+Pacotes capturados: 1
+
+Intervalo 40/450 - Tempo: 297.91s
+Pacotes capturados: 17
+
+Intervalo 41/450 - Tempo: 308.21s
+Pacotes capturados: 50
+
+Intervalo 42/450 - Tempo: 309.30s
+Pacotes capturados: 25
+
+Intervalo 43/450 - Tempo: 310.37s
+Pacotes capturados: 100
+
+Intervalo 44/450 - Tempo: 321.67s
+Pacotes capturados: 1
+
+Intervalo 45/450 - Tempo: 331.94s
+Pacotes capturados: 5
+
+Intervalo 46/450 - Tempo: 341.23s
+Pacotes capturados: 50
+
+Intervalo 47/450 - Tempo: 342.34s
+Pacotes capturados: 34
+
+Intervalo 48/450 - Tempo: 343.39s
+Pacotes capturados: 100
+
+Intervalo 49/450 - Tempo: 354.69s
+Pacotes capturados: 1
+
+Intervalo 50/450 - Tempo: 364.98s
+Pacotes capturados: 49
+
+Intervalo 51/450 - Tempo: 375.30s
+Pacotes capturados: 46
+
+Intervalo 52/450 - Tempo: 376.37s
 ^C
 Monitoramento interrompido pelo usuário.
 

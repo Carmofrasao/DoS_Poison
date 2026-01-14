@@ -92,6 +92,6 @@ plt.grid(True)
 
 fig.set_size_inches(10, 6)
 
-plt.savefig('graph.pdf', dpi=300, bbox_inches='tight', format='pdf')
+plt.savefig('../imagens/graph.pdf', dpi=300, bbox_inches='tight', format='pdf')
 
 plt.show()
