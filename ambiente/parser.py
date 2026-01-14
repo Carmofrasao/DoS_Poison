@@ -61,36 +61,65 @@ server_y = [obj_server.get(t, 0) for t in all_times]
 attacker_y = [obj_attacker.get(t, 0) for t in all_times]
 client_y = [obj_client.get(t, 0) for t in all_times]
 
-fig, ax1 = plt.subplots()
+rtt_y = [x / 1000 for x in obj_rtt.values()]
 
-ax1.plot(all_times, server_y, label='Suricata -> Web Server', color='red', linestyle='-')
-ax1.plot(all_times, attacker_y, label='Attacker -> Suricata', color='blue', linestyle='--')
-ax1.plot(all_times, client_y, label='Client -> Suricata', color='green', linestyle='-.')
-ax1.set_xlabel("Time")
-ax1.set_ylabel("Packets")
-ax1.tick_params(axis='y', labelcolor='black')
+fig, ax1 = plt.subplots(2,2)
 
-ax2 = ax1.twinx()
+ax1[0,0].plot(all_times, server_y, label='Suricata -> Web Server', color='red', linestyle='solid', linewidth=0.5)
+ax1[0,1].plot(all_times, attacker_y, label='Attacker -> Suricata', color='blue', linestyle='solid', linewidth=0.5)
+ax1[1,0].plot(all_times, client_y, label='Client -> Suricata', color='green', linestyle='solid', linewidth=0.5)
+ax1[1,1].plot(list(obj_rtt.keys()), rtt_y, label='RTT', color='purple', linestyle='solid', linewidth=0.5)
 
-ax2.plot(list(obj_rtt.keys()), list(obj_rtt.values()), label='RTT', color='purple', linestyle='solid')
-ax2.set_ylabel("Time (ms)")
-ax2.tick_params(axis='y', labelcolor='black')
+ax1[0,0].set_xlabel("Time (s)", fontsize=8)
+ax1[0,1].set_xlabel("Time (s)", fontsize=8)
+ax1[1,0].set_xlabel("Time (s)", fontsize=8)
+ax1[1,1].set_xlabel("Time (s)", fontsize=8)
 
-last_y = list(obj_rtt.values())[-1]
+ax1[0,0].set_ylabel("Packets", fontsize=8)
+ax1[0,1].set_ylabel("Packets", fontsize=8)
+ax1[1,0].set_ylabel("Packets", fontsize=8)
+ax1[1,1].set_ylabel("Seconds", fontsize=8)
+
+
+ax1[0,0].set_title("Suricata → Web Server", fontsize=10)
+ax1[0,1].set_title("Attacker → Suricata", fontsize=10)
+ax1[1,0].set_title("Client → Suricata", fontsize=10)
+ax1[1,1].set_title("RTT", fontsize=10)
+
+last_y = rtt_y[-1]
 last_x = list(obj_rtt.keys())[-1]
 
-ax2.scatter(last_x, last_y, marker='x', color='black', s=100, label="Couln't receive response")
+ax1[1,1].scatter(last_x, last_y, marker='x', color='black', s=13, label="Could not receive response")
+ax1[1,1].set_label("Could not receive response")
 
-# 1. Coleta as informações de ambos os eixos
-lines1, labels1 = ax1.get_legend_handles_labels()
-lines2, labels2 = ax2.get_legend_handles_labels()
+ax1[0,0].grid(True, alpha=0.4, linestyle="--")
+ax1[0,1].grid(True, alpha=0.4, linestyle="--")
+ax1[1,0].grid(True, alpha=0.4, linestyle="--")
+ax1[1,1].grid(True, alpha=0.4, linestyle="--")
 
-# 2. Une as listas e cria uma legenda única no ax1 ou ax2
-ax1.legend(lines1 + lines2, labels1 + labels2, loc='upper left')
+ax1[0,0].set_ylim(0, 105)
+ax1[0,1].set_ylim(0, 105)
+ax1[1,0].set_ylim(0, 105)
+ax1[1,1].set_ylim(0, 65)
 
-plt.grid(True)
+ax1[0,0].set_xlim(0, 400)
+ax1[0,1].set_xlim(0, 400)
+ax1[1,0].set_xlim(0, 400)
+ax1[1,1].set_xlim(0, 400)
 
-fig.set_size_inches(10, 6)
+ax1[0,0].tick_params(axis='both', labelsize=6)
+ax1[0,1].tick_params(axis='both', labelsize=6)
+ax1[1,0].tick_params(axis='both', labelsize=6)
+ax1[1,1].tick_params(axis='both', labelsize=6)
+
+ax1[0,0].set_xticks([0,50,100,150,200,250,300,350,400])
+ax1[0,1].set_xticks([0,50,100,150,200,250,300,350,400])
+ax1[1,0].set_xticks([0,50,100,150,200,250,300,350,400])
+ax1[1,1].set_xticks([0,50,100,150,200,250,300,350,400])
+
+fig.set_size_inches(7.5, 4.5)
+
+plt.subplots_adjust(hspace=0.5, wspace=0.2) 
 
 plt.savefig('../imagens/graph.pdf', dpi=300, bbox_inches='tight', format='pdf')
 
