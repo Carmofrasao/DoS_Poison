@@ -139,7 +139,7 @@ def update_reputation(ip):
                     lines[i] = f"{ip},{new_category},{new_reputation}\n"
                     break
             else:
-                lines.append(f"{ip},2,7\n")
+                lines.append(f"{ip},3,127\n")
             f.seek(0)
             f.writelines(lines)
     update_drop_probability(reputation_dict[new_category][new_reputation])
